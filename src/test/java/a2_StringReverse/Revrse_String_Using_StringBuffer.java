@@ -2,7 +2,7 @@ package a2_StringReverse;
 
 import java.util.Scanner;
 
-public class BufferReverse {
+public class Revrse_String_Using_StringBuffer {
 
 	public static void main(String[] args) {
 

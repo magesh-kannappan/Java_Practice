@@ -2,12 +2,12 @@ package a2_StringReverse;
 
 import java.util.Scanner;
 
-public class ArrayReverse {
+public class Revrse_String_Using_ForLoop {
 
 	public static void main(String[] args) {
 
-		System.err.println("Reverse the String using Char Array\n" 
-		+ "-----------------------------------\n");
+		System.err.println("Reverse the String using Char Array\n" +
+		"-----------------------------------\n");
 
 		@SuppressWarnings("resource")
 		Scanner userInput = new Scanner(System.in);
