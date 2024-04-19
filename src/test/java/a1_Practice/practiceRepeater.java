@@ -8,8 +8,9 @@ public class practiceRepeater {
 		// prac.reverseStringUsingStringBuffer();
 		// prac.reverseStringUsingForLoop();
 		// prac.swapnumber();
-		//		prac.swapnumberusingAdd();
-		prac.swapnumberusingMul();
+		// prac.swapnumberusingAdd();
+		// prac.swapnumberusingMul();
+		prac.LenghthofString();
 
 	}
 
@@ -90,6 +91,20 @@ public class practiceRepeater {
 		System.out.println("After");
 		System.out.println(a);
 		System.out.println(b);
+
+	}
+
+	private void LenghthofString() {
+
+		String name = "Magesh";
+		int length2 = name.length();
+		System.out.println(length2);
+		
+		char[] charArray = name.toCharArray();
+		int length = charArray.length;
+		System.out.println(length);
+		
+		
 
 	}
 
