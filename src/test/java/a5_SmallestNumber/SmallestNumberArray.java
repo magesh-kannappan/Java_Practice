@@ -6,7 +6,7 @@ public class SmallestNumberArray {
 
 		{
 
-			int arr[] = { 100, 55, 101, 1, 12, 10 };
+			int[] arr = { 100, 55, 101, 12, 0 };
 			int min = arr[0];
 			System.out.println(min);
 			for (int i = 0; i < arr.length; i++) {

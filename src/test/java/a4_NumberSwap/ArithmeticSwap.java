@@ -1,5 +1,8 @@
 package a4_NumberSwap;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 import java.util.Scanner;
 
 public class ArithmeticSwap {
@@ -7,8 +10,8 @@ public class ArithmeticSwap {
 	public static void main(String[] args) {
 
 		ArithmeticSwap swap = new ArithmeticSwap();
-		swap.add_Sub_Swap();
-//		ArithmeticSwap.mul_Div_Swap();
+		// swap.add_Sub_Swap();
+		ArithmeticSwap.mul_Div_Swap();
 	}
 
 	private void add_Sub_Swap() {

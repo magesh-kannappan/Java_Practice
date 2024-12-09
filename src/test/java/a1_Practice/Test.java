@@ -25,6 +25,7 @@ public class Test {
 		char[] array = givenString.toCharArray();
 		int arraylength = array.length;
 		
+		char[] arr = new char[5] ;
 		
 		
 		
