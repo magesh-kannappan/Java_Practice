@@ -12,9 +12,11 @@ public class Practice_14_12_24 {
 	public static void main(String[] args) {
 
 		System.out.println("Reverse the String\n");
-		stringReverseUsingStringBuffer();
-		stringReverseUsingCharArray();
-		stringReverseusingCollections();
+		// stringReverseUsingStringBuffer();
+		// stringReverseUsingCharArray();
+		// stringReverseusingCollections();
+		//		numberSwapUsingThirdVariable();
+		numberSwapUsingaddSub();
 	}
 
 	// Reverse the string
@@ -52,6 +54,45 @@ public class Practice_14_12_24 {
 
 		reversed = reveresedBufferString.toString();
 		System.err.println("String Reversed using Collections - " + reversed);
+	}
+
+	static void numberSwapUsingThirdVariable() {
+
+		long mageshNumber = 8124497957l;
+		long kishoreNumber = 9445837822l;
+		long tempHand = 0l;
+
+		System.err.println("Before Exchanging the numbers" + "\n");
+		System.out.println("Magesh Number - " + mageshNumber);
+		System.out.println("Kishore Number - " + kishoreNumber + "\n");
+
+		tempHand = mageshNumber;
+		mageshNumber = kishoreNumber;
+		kishoreNumber = tempHand;
+
+		System.err.println("After Exchanging the numbers" + "\n");
+		System.out.println("Magesh Number - " + mageshNumber);
+		System.out.println("Kishore Number - " + kishoreNumber);
+
+	}
+
+	// m=m-v
+	// v=m+v
+	// m=v-m
+
+	private static void numberSwapUsingaddSub() {
+
+		long mageshNumber = 8124497957l;
+		long kishoreNumber = 9445837822l;
+
+		mageshNumber = mageshNumber - kishoreNumber;
+		kishoreNumber = mageshNumber + kishoreNumber;
+		mageshNumber = kishoreNumber - mageshNumber;
+
+		System.err.println("After Exchanging the numbers" + "\n");
+		System.out.println("Magesh Number - " + mageshNumber);
+		System.out.println("Kishore Number - " + kishoreNumber);
+
 	}
 
 }

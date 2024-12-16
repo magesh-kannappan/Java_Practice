@@ -2,7 +2,7 @@ package a6_StringLength;
 
 import java.util.Scanner;
 
-public class StringLenForLoop {
+public class String_Length_Using_For_Each_Loop {
 
 	public static void main(String[] args) {
 
@@ -12,12 +12,12 @@ public class StringLenForLoop {
 		System.out.println("\nEnter the String to claculate the length");
 		String usrString = scan.nextLine();
 
-		char[] charArray = usrString.toCharArray();
-		int length = 1;
-		for (int i = 0; i < charArray.length; i++) {
-
+		int charLength = 0;
+		char[] nameArray = usrString.toCharArray();
+		for (Character c : nameArray) {
+			charLength++;
 		}
-
+		System.err.println("\nString Length using Foreach Loop function - " + charLength);
 	}
 
 }

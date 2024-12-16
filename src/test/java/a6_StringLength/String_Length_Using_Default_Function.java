@@ -2,7 +2,7 @@ package a6_StringLength;
 
 import java.util.Scanner;
 
-public class StringLenFun {
+public class String_Length_Using_Default_Function {
 
 	public static void main(String[] args) {
 

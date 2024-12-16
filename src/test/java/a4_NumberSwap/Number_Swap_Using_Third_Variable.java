@@ -2,7 +2,7 @@ package a4_NumberSwap;
 
 import java.util.Scanner;
 
-public class VariableSwap {
+public class Number_Swap_Using_Third_Variable {
 
 	public static void main(String[] args) {
 
