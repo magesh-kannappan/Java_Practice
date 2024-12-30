@@ -1,4 +1,4 @@
-package a6_StringLength;
+package a6_String_Length;
 
 import java.util.Scanner;
 

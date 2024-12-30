@@ -1,4 +1,4 @@
-package a4_NumberSwap;
+package a4_Number_Swap;
 
 import java.util.Scanner;
 

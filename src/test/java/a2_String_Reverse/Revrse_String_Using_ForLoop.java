@@ -1,4 +1,4 @@
-package a2_StringReverse;
+package a2_String_Reverse;
 
 import java.util.Scanner;
 

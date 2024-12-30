@@ -1,4 +1,4 @@
-package a5_SmallestNumber;
+package a5_Smallest_Number;
 
 public class SmallestNumberArray {
 

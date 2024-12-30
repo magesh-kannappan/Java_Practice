@@ -1,4 +1,4 @@
-package a3_IntegerReverse;
+package a3_Integer_Reverse;
 
 import java.util.Scanner;
 
