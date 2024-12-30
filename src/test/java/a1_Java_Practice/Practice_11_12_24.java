@@ -1,4 +1,4 @@
-package a1_Practice;
+package a1_Java_Practice;
 
 public class Practice_11_12_24 {
 
