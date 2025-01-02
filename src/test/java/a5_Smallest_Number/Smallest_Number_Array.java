@@ -1,6 +1,6 @@
 package a5_Smallest_Number;
 
-public class SmallestNumberArray {
+public class Smallest_Number_Array {
 
 	public static void main(String[] args) {
 
