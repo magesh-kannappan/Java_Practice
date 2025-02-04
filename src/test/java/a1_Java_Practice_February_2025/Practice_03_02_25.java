@@ -1,4 +1,4 @@
-package a1_Java_Practice_January_2025;
+package a1_Java_Practice_February_2025;
 
 import java.util.Scanner;
 
