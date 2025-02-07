@@ -10,7 +10,11 @@ public class Practice_04_02_25 {
 
 	public static void main(String[] args) {
 
-		smallestNumberInArray();
+		//		smallestNumberInArray();
+
+		int[] array = { 3, 2, 1 };
+		Arrays.sort(array);
+		System.out.println(Arrays.toString(array));
 	}
 
 	private void jdsncf() {
