@@ -1,20 +1,46 @@
 package a1_Java_Practice_February_2025;
 
-class Super {
-    public int getLenght() {
-        return 1;
-    }
+
+
+class Animal {
+	void makeSound() {
+		System.out.println("Animal makes a sound");
+	}
 }
 
-public class Test extends Super {
-    public int getLenght() {  // Corrected method
-        return 2;
-    }
+class Dog extends Animal {
+	@Override
+	void makeSound() {
+		System.out.println("Dog barks");
+	}
+}
 
-    public static void main(String[] args) {
-        Super sooper = new Test();  // Upcasting
-        Test test = new Test();
+class Cat extends Dog {
+	@Override
+	void makeSound() {
+		System.out.println("Cat Meows");
+	}
+}
 
-        System.out.println(sooper.getLenght() + "," + test.getLenght());
-    }
+public class Test {
+	public static void main(String[] args) {
+		//
+		// Animal myAnimal = new Dog(); // Upcasting
+		// myAnimal.makeSound(); // Calls Dog's makeSound() at runtime
+
+//		Dog myDog = new Dog();
+//		myDog.makeSound();
+//
+//		Cat myCat = new Cat();
+//		myCat.makeSound();
+
+		Animal myAnimal = new Dog();
+		myAnimal.makeSound();
+
+		Animal myAnimal2 = new Cat();
+		myAnimal2.makeSound();
+		
+		
+
+	}
 }
