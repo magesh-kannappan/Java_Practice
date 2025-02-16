@@ -27,7 +27,14 @@ public class Revrse_String_Using_ForLoop {
 			reversed = reversed + charArray[i];
 		}
 
-		System.err.println("\nString After Reversed: " + reversed);
+//		System.err.println("\nString After Reversed: " + reversed);
+		
+		String name1 = "Magesh";
+		String name2 = "Magesh";
+		
+		String name3 = new String("Prakash");
+		String name4 = new String("Prakash");
+		System.out.println(name3==name4);
 
 	}
 

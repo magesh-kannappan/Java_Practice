@@ -27,7 +27,7 @@ public class Reverse_String_Using_Collections {
 		}
 
 		Collections.reverse(stringList);
-
+		
 		StringBuffer reveresedBufferString = new StringBuffer();
 		
 		for (Character reversedchar : stringList) {

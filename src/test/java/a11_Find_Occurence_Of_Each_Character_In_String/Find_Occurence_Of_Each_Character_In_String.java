@@ -7,8 +7,8 @@ public class Find_Occurence_Of_Each_Character_In_String {
 	public static void main(String[] args) {
 
 		String name = "India";
-		// String lowerCase = name.toLowerCase();
-		char[] charArray = name.toCharArray();
+		 String lowerCase = name.toLowerCase();
+		char[] charArray = lowerCase.toCharArray();
 		Integer count;
 
 		LinkedHashMap<Character, Integer> map = new LinkedHashMap<Character, Integer>();
