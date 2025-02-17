@@ -1,8 +1,8 @@
-package a2_String_Reverse;
+package a02_Character_Reverse;
 
 import java.util.Scanner;
 
-public class Revrse_String_Using_ForLoop {
+public class Character_String_Using_ForLoop {
 
 	public static void main(String[] args) {
 

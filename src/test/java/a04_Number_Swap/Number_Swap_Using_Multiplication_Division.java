@@ -1,13 +1,13 @@
-package a4_Number_Swap;
+package a04_Number_Swap;
 
 import java.util.Scanner;
 
-public class Number_Swap_Using_Addition_Subtraction {
+public class Number_Swap_Using_Multiplication_Division {
 
 	public static void main(String[] args) {
 
-		System.err.println(
-				"Swapping two Numbers using Addition and Subtraction\n" + "-----------------------------------------");
+		System.err.println("Swapping two Numbers using Multiplication and Division\n"
+				+ "-----------------------------------------");
 
 		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
@@ -24,13 +24,12 @@ public class Number_Swap_Using_Addition_Subtraction {
 		// second = first + second
 		// first = second - first
 
-		magesh_Salary = magesh_Salary - vinoth_Salary;
-		vinoth_Salary = magesh_Salary + vinoth_Salary;
-		magesh_Salary = vinoth_Salary - magesh_Salary;
+		magesh_Salary = magesh_Salary * vinoth_Salary;
+		vinoth_Salary = magesh_Salary * vinoth_Salary;
+		magesh_Salary = vinoth_Salary / magesh_Salary;
 
 		System.out.println("\nSalaries After Swapping: " + "\n-------------------------" + "\nMagesh Salary: "
 				+ magesh_Salary + "\nVinoth Salary: " + vinoth_Salary);
 
 	}
-
 }

@@ -1,8 +1,8 @@
-package a6_StringLength;
+package a06_StringLength;
 
 import java.util.Scanner;
 
-public class String_Length_Using_For_Each_Loop {
+public class String_Length_Using_Character_Array_Function {
 
 	public static void main(String[] args) {
 
@@ -12,12 +12,8 @@ public class String_Length_Using_For_Each_Loop {
 		System.out.println("\nEnter the String to claculate the length");
 		String usrString = scan.nextLine();
 
-		int charLength = 0;
-		char[] nameArray = usrString.toCharArray();
-		for (Character c : nameArray) {
-			charLength++;
-		}
-		System.err.println("\nString Length using Foreach Loop function - " + charLength);
+		char[] usrCharArray = usrString.toCharArray();
+		int usrCharArrayLength = usrCharArray.length;
+		System.out.println("String Length using Character Array Function - " + usrCharArrayLength);
 	}
-
 }
