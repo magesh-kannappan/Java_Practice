@@ -1,4 +1,4 @@
-package a09_Smallest_Number_In_Array;
+package a12_Smallest_Number_In_Array;
 
 import java.util.Arrays;
 

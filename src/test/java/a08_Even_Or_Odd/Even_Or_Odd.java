@@ -1,4 +1,4 @@
-package a13_Even_Or_Odd;
+package a08_Even_Or_Odd;
 
 public class Even_Or_Odd {
 

@@ -1,6 +1,6 @@
-package a12_Word_Count_In_The_Sentence;
+package a09_Word_Count_In_Sentence;
 
-public class Word_Count_In_The_Sentence {
+public class Word_Count_In_Sentence {
 
 	public static void main(String[] args) {
 

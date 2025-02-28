@@ -1,4 +1,4 @@
-package a12307_Find_Vowels;
+package a12_Find_Vowels;
 
 public class Find_Vowels_Present_In_String {
 

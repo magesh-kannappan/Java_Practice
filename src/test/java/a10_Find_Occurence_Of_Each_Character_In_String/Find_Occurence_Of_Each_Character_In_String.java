@@ -1,4 +1,4 @@
-package a11_Find_Occurence_Of_Each_Character_In_String;
+package a10_Find_Occurence_Of_Each_Character_In_String;
 
 import java.util.LinkedHashMap;
 
