@@ -1,4 +1,4 @@
-package a12_Replace_Vowels_With_Special_Chars;
+package a13_Replace_Vowels_With_Special_Chars;
 
 public class Replace_Vowels_Using_For_Loop {
 

@@ -1,4 +1,4 @@
-package a12_Smallest_Number_In_Array;
+package a14_Bubble_Sort;
 
 import java.util.Arrays;
 

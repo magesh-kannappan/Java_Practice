@@ -1,4 +1,4 @@
-package a12_Smallest_Number_In_Array;
+package a14_Bubble_Sort;
 
 public class Smallest_Number_In_Array_Using_For_Loop {
 
