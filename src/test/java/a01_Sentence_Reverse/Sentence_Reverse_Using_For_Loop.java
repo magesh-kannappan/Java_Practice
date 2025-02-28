@@ -1,6 +1,6 @@
-package a01_String_Reverse;
+package a01_Sentence_Reverse;
 
-public class String_Reverse_Using_For_Loop {
+public class Sentence_Reverse_Using_For_Loop {
 
 	public static void main(String[] args) {
 

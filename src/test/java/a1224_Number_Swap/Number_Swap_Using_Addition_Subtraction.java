@@ -1,12 +1,13 @@
-package a04_Number_Swap;
+package a1224_Number_Swap;
 
 import java.util.Scanner;
 
-public class Number_Swap_Using_Third_Variable {
+public class Number_Swap_Using_Addition_Subtraction {
 
 	public static void main(String[] args) {
 
-		System.err.println("Swapping two Numbers using third variable\n" + "-----------------------------------------");
+		System.err.println(
+				"Swapping two Numbers using Addition and Subtraction\n" + "-----------------------------------------");
 
 		@SuppressWarnings("resource")
 		Scanner scan = new Scanner(System.in);
@@ -19,9 +20,13 @@ public class Number_Swap_Using_Third_Variable {
 		System.out.println("\nSalaries before Swapping: " + "\n-------------------------" + "\nMagesh Salary: "
 				+ magesh_Salary + "\nVinoth Salary: " + vinoth_Salary);
 
-		int temp_Hand = magesh_Salary;
-		magesh_Salary = vinoth_Salary;
-		vinoth_Salary = temp_Hand;
+		// first = first - second
+		// second = first + second
+		// first = second - first
+
+		magesh_Salary = magesh_Salary - vinoth_Salary;
+		vinoth_Salary = magesh_Salary + vinoth_Salary;
+		magesh_Salary = vinoth_Salary - magesh_Salary;
 
 		System.out.println("\nSalaries After Swapping: " + "\n-------------------------" + "\nMagesh Salary: "
 				+ magesh_Salary + "\nVinoth Salary: " + vinoth_Salary);
