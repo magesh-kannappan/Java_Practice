@@ -1,22 +1,14 @@
 package a1_Java_Practice_February_2025;
 
-import java.util.LinkedHashSet;
-
 public class Test2 {
 
-	public static void main(String[] args) {
-		stringDuplicateRemover();
-
+	static {
+		System.out.println("Ravin");
 	}
 
-	static void stringDuplicateRemover() {
-
-		
-	}
-
-	static void intDuplicateRemover() {
-
-		
+	public static void main(String[] args) 
+	{
+		System.out.println("Magesh");
 	}
 
 }
