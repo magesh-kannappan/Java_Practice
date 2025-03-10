@@ -4,9 +4,9 @@ public class Sentence_Character_Reverse {
 
 	public static void main(String[] args) {
 
-		String str = "I Love India";
+		String str = "Magesh Kannappan";
 		String lowerName = str.toLowerCase();
-		String reversed = "";
+//		String reversed = "";
 
 		char[] revArray = lowerName.toCharArray();
 		String revWord = "";
@@ -14,14 +14,16 @@ public class Sentence_Character_Reverse {
 		for (int j = revArray.length - 1; j >= 0; j--) {
 			revWord = revWord + revArray[j];
 		}
-
-		String[] strArray = revWord.split(" ");
-
-		for (int i = strArray.length - 1; i >= 0; i--) {
-			reversed = reversed + strArray[i] + " ";
-		}
 		System.out.println(revWord);
-		System.out.println(reversed);
+
+//		String[] strArray = revWord.split(" ");
+//
+//		for (int i = strArray.length - 1; i >= 0; i--) {
+//			reversed = reversed + strArray[i] + " ";
+//		}
+		
+//		System.out.println(revWord);
+
 	}
 
 }
