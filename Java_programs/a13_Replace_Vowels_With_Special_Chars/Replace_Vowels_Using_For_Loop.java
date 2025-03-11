@@ -18,7 +18,7 @@ public class Replace_Vowels_Using_For_Loop {
 				}
 			}
 		}
-		
+
 		for (char asd : nameArray) {
 			System.out.print(asd);
 
