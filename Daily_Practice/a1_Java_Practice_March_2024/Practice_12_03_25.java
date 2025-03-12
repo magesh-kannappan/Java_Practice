@@ -4,9 +4,11 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.LinkedHashMap;
 import java.util.Properties;
 
-public class Practice_10_03_25 {
+public class Practice_12_03_25 {
 
 	public static void main(String[] args) throws IOException {
 		// TextFileReader();
@@ -18,7 +20,50 @@ public class Practice_10_03_25 {
 		// countWords();
 		// occurenceOfCharacter();
 		// replaceVowels();
-		replaceVowels2();
+		// replaceVowels2();
+		// occurenceOfEachCharacter();
+		bubbleSort();
+
+	}
+
+	static void bubbleSort() {
+
+		int[] nums = { 12, 32, 11, 866 };
+		int temp;
+
+		for (int i = 0; i < nums.length; i++) {
+			for (int j = i + 1; j < nums.length; j++) {
+				if (nums[i] > nums[j]) {
+					temp = nums[i];
+					nums[i] = nums[j];
+					nums[i] = temp;
+				}
+			}
+		}
+
+		String string = Arrays.toString(nums);
+		System.out.println(string);
+
+	}
+
+	static void occurenceOfEachCharacter() {
+
+		String name = "Magesh";
+		char[] nameArray = name.toCharArray();
+
+		LinkedHashMap<Character, Integer> map = new LinkedHashMap<Character, Integer>();
+
+		for (char ch : nameArray) {
+			if (map.containsKey(map)) {
+
+				Integer count = map.get(ch);
+				map.put(ch, count + 1);
+			} else {
+				map.put(ch, 1);
+			}
+		}
+
+		System.out.print(map.toString());
 
 	}
 
