@@ -4,22 +4,22 @@ public class Armstrong_Number {
 
 	public static void main(String[] args) {
 
-		int num = 153; // Define the number to check
-		int originalNum = num;
+		int num = 153;
+		int temp = num;
+		int rem = 0;
 		int sum = 0;
-		int digits = String.valueOf(num).length(); // Count digits
 
 		while (num > 0) {
-			int digit = num % 10; // Extract last digit
-			sum += Math.pow(digit, digits); // Add digit^power
-			num /= 10; // Remove last digit
+			rem = num % 10;
+			sum = sum + (rem * rem * rem);
+			num = num / 10;
 		}
+		System.out.print(sum + " ");
 
-		// Check if the sum is equal to the original number
-		if (sum == originalNum) {
-			System.out.println(originalNum + " is an Armstrong number.");
+		if (num == temp) {
+			System.out.println("Number is armstrong");
 		} else {
-			System.out.println(originalNum + " is not an Armstrong number.");
+			System.out.println("Number is not an armstrong");
 		}
 	}
 }
