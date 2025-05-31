@@ -1,13 +1,15 @@
 package a08_Even_Or_Odd;
 
 // Program to check each digit of a number and print whether it's Even or Odd
-class Main {
+public class Even_Or_Odd {
 	public static void main(String[] args) {
 
-		int num = 12433;
+		// Input number
+		int num = 12433; 
 
-		// Loop until the number becomes 0
+		// Loop to extract and check each digit from right to left
 		while (num > 0) {
+
 			// Get the last digit
 			int lastDigit = num % 10;
 

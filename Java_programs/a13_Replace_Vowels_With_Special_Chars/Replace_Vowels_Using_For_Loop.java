@@ -1,5 +1,7 @@
 package a13_Replace_Vowels_With_Special_Chars;
 
+import java.util.Arrays;
+
 public class Replace_Vowels_Using_For_Loop {
 
 	public static void main(String[] args) {
@@ -19,10 +21,12 @@ public class Replace_Vowels_Using_For_Loop {
 			}
 		}
 
-		for (char asd : nameArray) {
-			System.out.print(asd);
+		System.out.println(Arrays.toString(nameArray));
 
-		}
+		//		for (char asd : nameArray) {
+		//			System.out.print(asd);
+		//
+		//		}
 
 	}
 

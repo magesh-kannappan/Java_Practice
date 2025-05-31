@@ -1,6 +1,6 @@
 package a10_Single_Character_Occurence;
 
-public class Single_Character_Occurence {
+public class Single_Character_Occurrence_InWords {
 
 	public static void main(String[] args) {
 

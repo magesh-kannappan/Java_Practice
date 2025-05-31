@@ -7,36 +7,39 @@ public class Find_Occurence_Of_Each_Character_In_String {
 
 	public static void main(String[] args) {
 
+		// Input string
 		String name = "India";
+
+		// Convert to lowercase to treat characters like 'I' and 'i' as the same
 		String lowerCase = name.toLowerCase();
+
+		// Convert the string to a character array
 		char[] charArray = lowerCase.toCharArray();
-		Integer count;
 
-		LinkedHashMap<Character, Integer> map = new LinkedHashMap<Character, Integer>();
+		// LinkedHashMap maintains insertion order
+		LinkedHashMap<Character, Integer> frequencyMap = new LinkedHashMap<>();
 
-		for (char chars : charArray) {
-
-			if (map.containsKey(chars)) {
-				count = map.get(chars);
-				map.put(chars, count + 1);
-
+		// Count occurrences of each character
+		for (char ch : charArray) {
+			if (frequencyMap.containsKey(ch)) {
+				frequencyMap.put(ch, frequencyMap.get(ch) + 1);
 			} else {
-				map.put(chars, 1);
+				frequencyMap.put(ch, 1);
 			}
 		}
 
-		// System.out.println(map.toString());
+		// Display all character frequencies (optional)
+		System.out.println("Character Frequencies:");
+		for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
+			System.out.println(entry.getKey() + " : " + entry.getValue());
+		}
 
-		for (Map.Entry<Character, Integer> ch1 : map.entrySet()) {
-
-			if (ch1.getValue() == 1) {
-				Character key = ch1.getKey();
-				System.out.println("First Non repetitive character in the given string is - " + key);
+		// Find and print the first non-repeating character
+		for (Map.Entry<Character, Integer> entry : frequencyMap.entrySet()) {
+			if (entry.getValue() == 1) {
+				System.out.println("First non-repetitive character is: " + entry.getKey());
 				break;
 			}
-
 		}
-
 	}
-
 }
