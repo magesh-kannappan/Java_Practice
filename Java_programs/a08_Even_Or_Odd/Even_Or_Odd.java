@@ -1,6 +1,7 @@
 package a08_Even_Or_Odd;
 
 // Program to check each digit of a number and print whether it's Even or Odd
+
 public class Even_Or_Odd {
 	public static void main(String[] args) {
 

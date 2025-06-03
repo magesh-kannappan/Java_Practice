@@ -1,4 +1,4 @@
-package a22_Fibonnaci_Series;
+package a21_Fibonnaci_Series;
 
 public class Fibonnaci_Series {
 

@@ -1,4 +1,4 @@
-package a21_Sentence_Character_Reverse;
+package a04_Sentence_Character_Reverse;
 
 public class Sentence_Character_Reverse {
 
