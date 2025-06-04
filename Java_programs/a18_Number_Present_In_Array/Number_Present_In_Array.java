@@ -16,7 +16,6 @@ public class Number_Present_In_Array {
 			if (n == numToFind) {
 				System.out.println("Given number is present in the array - " + numToFind);
 			}
-
 		}
 	}
 

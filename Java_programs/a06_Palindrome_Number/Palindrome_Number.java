@@ -1,4 +1,4 @@
-package a19_Palindrome_Number;
+package a06_Palindrome_Number;
 
 public class Palindrome_Number {
 
