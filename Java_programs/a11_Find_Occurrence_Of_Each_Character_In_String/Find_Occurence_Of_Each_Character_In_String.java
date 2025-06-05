@@ -40,12 +40,5 @@ public class Find_Occurence_Of_Each_Character_In_String {
 			System.out.println(entry.getKey() + " : " + entry.getValue());
 		}
 
-		// Find and print the first non-repeating character
-		for (Map.Entry<Character, Integer> entry : charFrequencyMap.entrySet()) {
-			if (entry.getValue() == 1) {
-				System.out.println("\nFirst non-repeating character: " + entry.getKey());
-				break;
-			}
-		}
 	}
 }

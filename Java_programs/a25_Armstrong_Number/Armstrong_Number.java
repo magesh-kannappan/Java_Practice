@@ -16,7 +16,7 @@ public class Armstrong_Number {
 		}
 		System.out.print(sum + " ");
 
-		if (num == temp) {
+		if (sum == temp) {
 			System.out.println("Number is armstrong");
 		} else {
 			System.out.println("Number is not an armstrong");
