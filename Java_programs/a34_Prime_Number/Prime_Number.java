@@ -1,4 +1,4 @@
-package a33_Prime_Number;
+package a34_Prime_Number;
 
 public class Prime_Number {
 
