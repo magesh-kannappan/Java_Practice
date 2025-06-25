@@ -29,5 +29,19 @@ public class First_Non_Repititive_Character {
 			}
 		}
 
+		System.out.println(map.toString());
+		int nonRep = 0;
+
+		for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+			if (entry.getValue() == 1) {
+				nonRep++;
+				if (nonRep == 2) {
+					System.out.println("Second non repeat - " + entry.getKey());
+					return;
+				}
+
+			}
+
+		}
 	}
 }
