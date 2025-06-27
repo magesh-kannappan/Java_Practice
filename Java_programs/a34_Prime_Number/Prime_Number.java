@@ -3,23 +3,21 @@ package a34_Prime_Number;
 public class Prime_Number {
 
 	public static void main(String[] args) {
+		
+		int num = 5;
+		int count = 0;
 
-		int num = 4; // Change this number to test others
-		boolean isPrime = true;
-
-		if (num <= 1) {
-			isPrime = false;
-		}
-
-		for (int i = 2; i < num; i++) {
+		for (int i = 1; i <= num; i++) {
 			if (num % i == 0) {
-				isPrime = false;
-				break;
+				count++;
 			}
 		}
 
-		System.out.println(num + (isPrime ? " is a Prime Number" : " is NOT a Prime Number"));
-
+		if (count == 2) {
+			System.out.println("Number is prime");
+		} else {
+			System.out.println("Number is not prime");
+		}
 	}
 
 }

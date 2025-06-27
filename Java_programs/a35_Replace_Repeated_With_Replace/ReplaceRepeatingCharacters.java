@@ -1,4 +1,4 @@
-package a35_Replace_Repeated_With_ReplaceMethod;
+package a35_Replace_Repeated_With_Replace;
 
 import java.util.HashSet;
 
