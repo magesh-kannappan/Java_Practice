@@ -9,6 +9,7 @@ public class Reverse_Characters_Except_Digits {
 
 		String replacedInput = input.replaceAll("[^a-zA-Z]", "");
 		System.out.println(replacedInput);
+		
 		char[] letters = replacedInput.toCharArray();
 		int index = letters.length - 1;
 
